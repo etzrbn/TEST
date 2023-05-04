@@ -1,0 +1,21 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Roblox Scripts", "DarkTheme")
+local Tab = Window:NewTab("Pet Sim Script")
+local Section = Tab:NewSection("psx area")
+Section:NewButton(
+    "Psx",
+    "ButtonInfo",
+    function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
+        print("Clicked")
+    end
+)
+local Tab = Window:NewTab("Blox fruit script")
+local Section = Tab:NewSection("bloxfruit area")
+Section:NewButton(
+    "ButtonText",
+    "ButtonInfo",
+    function()
+        print("Clicked")
+    end
+)
